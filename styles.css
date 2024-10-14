@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    font-family: Tahoma;
+}
+
+.container {
+    height: 100%;
+}
+
+#toolbar {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    width: 100%;
+    background-color: #202020;
+}
+
+#toolbar * {
+    margin-bottom: 6px;
+}
+
+#toolbar label {
+    font-family: Tahoma;
+    margin:0 50px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#toolbar input {
+    width: 100px;
+}
+
+#toolbar button {
+    background-color: #1565c0;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    color:white;
+    padding: 2px;
+}
