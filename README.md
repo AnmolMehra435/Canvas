@@ -1,1 +1,1 @@
-# Canvas
+Created basic canvas structure which we will use in Inscribe.
